@@ -118,7 +118,7 @@ def main():
         event_title = u'[%s] %s failed in %.2fs' % (host, options.name,
                                                     duration)
     event_body = [u'%%%\n',
-        u'commmand:\n```\n', u' '.join(cmd), u'\n```\n',
+        u'command:\n```\n', u' '.join(cmd), u'\n```\n',
         u'exit code: %s\n\n' % returncode,
     ]
     if stdout:
